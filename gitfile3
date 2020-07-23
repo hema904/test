@@ -1,1 +1,20 @@
-hi hello worlf file3
+hii hello worlf file3
+ec2-user@ip-172-31-44-224 testgit]$ git pull --rebase origin master
+From https://github.com/hema904/test
+ * branch            master     -> FETCH_HEAD
+First, rewinding head to replay your work on top of it...
+Applying: 2 files new files
+Applying: committing file3
+[ec2-user@ip-172-31-44-224 testgit]$ git push -u origin master
+Username for 'https://github.com': hema904
+Password for 'https://hema904@github.com': 
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 578 bytes | 578.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/hema904/test.git
+   77a7e4c..9929db4  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
